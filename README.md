@@ -1,8 +1,8 @@
 # github-action-version-bump
 Testing out actions version bump in npm packages
 
-to bump minor: use `feat` or `feature` in pr
-to bump major: use `BREAKING CHANGE` or `major`
+- to bump `minor`: use `feat` or `feature` in commit message
+- to bump `major`: use `BREAKING CHANGE` or `major` in commit message
 
 #### How to use
 1. **pull repo using ssh** (just in case)
