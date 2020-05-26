@@ -5,3 +5,4 @@ console.log('test if minor works');
 console.log('test if major works');
 
 console.log('feature works as well  ');
+console.log("test on merge")
