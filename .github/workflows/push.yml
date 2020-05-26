@@ -27,5 +27,6 @@ jobs:
           tag-prefix: ''
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PACKAGEJSON_DIR: 'npm-package'
       - name: 'cat package.json'
         run: cat ./package.json
